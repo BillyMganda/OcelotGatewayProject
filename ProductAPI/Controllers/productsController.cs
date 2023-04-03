@@ -27,5 +27,11 @@ namespace ProductAPI.Controllers
         {
             return _service.GetProductById(id);
         }
+
+        [HttpPost]
+        public Product AddProduct(Product product)
+        {
+            return _service.AddProduct(product);
+        }
     }
 }
