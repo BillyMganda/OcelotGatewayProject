@@ -1,0 +1,17 @@
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using ProductAPI.Services;
+
+namespace ProductAPI.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class productsController : ControllerBase
+    {
+        private readonly IProductService _service;
+        public productsController(IProductService service)
+        {
+            _service = service;
+        }
+    }
+}
