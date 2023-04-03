@@ -5,9 +5,11 @@ VisualStudioVersion = 17.3.32721.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{01203138-1913-49F3-86E0-74FB4612C8E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAPI", "ProductAPI\ProductAPI.csproj", "{581850F1-06A8-454F-A71D-8E3F83D7F0E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductAPI", "ProductAPI\ProductAPI.csproj", "{581850F1-06A8-454F-A71D-8E3F83D7F0E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAPI", "UserAPI\UserAPI.csproj", "{2E3B9C3B-AB1C-4F09-AE23-537AAD25BA80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserAPI", "UserAPI\UserAPI.csproj", "{2E3B9C3B-AB1C-4F09-AE23-537AAD25BA80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotAPIGateway", "OcelotAPIGateway\OcelotAPIGateway.csproj", "{42942EC0-B1F0-4A64-A3A6-46C170D04E23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{2E3B9C3B-AB1C-4F09-AE23-537AAD25BA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E3B9C3B-AB1C-4F09-AE23-537AAD25BA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E3B9C3B-AB1C-4F09-AE23-537AAD25BA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42942EC0-B1F0-4A64-A3A6-46C170D04E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42942EC0-B1F0-4A64-A3A6-46C170D04E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42942EC0-B1F0-4A64-A3A6-46C170D04E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42942EC0-B1F0-4A64-A3A6-46C170D04E23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
