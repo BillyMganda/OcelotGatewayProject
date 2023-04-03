@@ -33,5 +33,11 @@ namespace ProductAPI.Controllers
         {
             return _service.AddProduct(product);
         }
+
+        [HttpPut]
+        public Product UpdateProduct(Product product)
+        {
+            return _service.UpdateProduct(product);
+        }
     }
 }
