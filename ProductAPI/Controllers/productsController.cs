@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ProductAPI.Models;
 using ProductAPI.Services;
 
 namespace ProductAPI.Controllers
@@ -12,6 +13,13 @@ namespace ProductAPI.Controllers
         public productsController(IProductService service)
         {
             _service = service;
+        }
+
+        [HttpGet]
+        public IEnumerable<Product> ProductList()
+        {
+            var productList = _service.GetProductList();
+            return productList;
         }
     }
 }
