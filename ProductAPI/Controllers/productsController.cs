@@ -21,5 +21,11 @@ namespace ProductAPI.Controllers
             var productList = _service.GetProductList();
             return productList;
         }
+
+        [HttpGet("{id}")]
+        public Product GetProductById(Guid id)
+        {
+            return _service.GetProductById(id);
+        }
     }
 }
